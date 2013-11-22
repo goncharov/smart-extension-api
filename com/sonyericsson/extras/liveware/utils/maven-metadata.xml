@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.sonyericsson.extras.liveware</groupId>
   <artifactId>utils</artifactId>
-  <version>2.0</version>
+  <version>2.1</version>
   <versioning>
     <versions>
-      <version>2.0</version>
+      <version>2.1</version>
     </versions>
-    <lastUpdated>20130925162012</lastUpdated>
+    <lastUpdated>20131121184250</lastUpdated>
   </versioning>
 </metadata>
