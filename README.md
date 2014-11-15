@@ -11,25 +11,26 @@ Define one of this repositories in your build script:
 
 and declare the needed version in the dependencies:
 
+* 3.0 (```com.sonyericsson.extras.liveware:utils:3.0```)
 * 2.1 (```com.sonyericsson.extras.liveware:utils:2.1```)
 * 2.0 (```com.sonyericsson.extras.liveware:utils:2.0```)
 * 1.0.4 (```com.sonyericsson.extras.liveware:utils:1.0.4```)
 
-Gradle example (tested with ```Android New Build System 0.6.3```):
+Gradle example (tested with ```Android New Build System 0.14```):
 
 ```groovy
 repositories {
-    maven { url 'https://raw.github.com/goncharov/smart-extension-api/master/' }
+    maven { url 'http://dl.bintray.com/goncharov/smart-extension-api/' }
 }
 
 dependencies {
-    compile 'com.sonyericsson.extras.liveware:utils:2.1'
+    compile 'com.sonyericsson.extras.liveware:utils:3.0'
 }
 ```
 
 # License
 
-Copyright (c) 2011, Sony Ericsson Mobile Communications AB
+Copyright (c) 2014 Sony Mobile Communications AB.
 
 All rights reserved.
 
@@ -44,6 +45,10 @@ modification, are permitted provided that the following conditions are met:
   and/or other materials provided with the distribution.
 
  * Neither the name of the Sony Ericsson Mobile Communications AB nor the names
+  of its contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+* Neither the name of the Sony Mobile Communications AB nor the names
   of its contributors may be used to endorse or promote products derived from
   this software without specific prior written permission.
 
